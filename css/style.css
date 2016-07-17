@@ -1,0 +1,214 @@
+.navbar-brand a ,.navbar-brand a:hover{
+	color:#3498DB;
+	text-decoration:none;
+}
+p{line-height: 30px}
+.blackTie {
+	width:100%;
+	height: 550px;
+	background:url('../img/header_bg.jpg') center no-repeat;
+	background-size: cover
+}
+.blackTie i ,.blackTie h1 , .blackTie p{
+	color:white;
+	text-align: center;
+	display: block;
+	text-shadow: 0px 0px 5px black;
+}
+.blackTie i {
+	font-size: 100px;
+	margin-top:150px;
+}
+.blackTie h1{
+	margin-top:60px;
+	font-size:2.7em;
+}
+.blackTie p{font-size:2.5em;}
+.infoTheme div{
+	text-align: center;
+	margin:30px 0 10px;
+}
+.secondInfo{
+	text-align:center;
+	display: block;
+}
+.infoAgency h1{text-align: center;}
+.infoAgency hr {width:700px;}
+.infoAgency p {margin:40px 0;}
+.firstDivider {
+	width:100%;
+	height: 350px;
+	background:url(../img/bg/divider1.jpg) no-repeat center;
+	background-size: cover
+}
+.firstDivider h1{
+	text-align:center;
+	color:white;
+	padding-top:120px;
+}
+.firstDivider p{
+	text-align: center;
+	color:white;
+	font-size:25px;
+}
+.firstDivider hr{width: 570px}
+.infoBrand{
+	width:100%;
+	height:auto;
+}
+.infoBrand h3 {text-align: center;margin-top:55px;}
+.infoBrand hr{width:575px;}
+.infoBrand p {padding-top:25px;}
+.infoBrand img {
+	width: 725px;
+	height: 400px
+}
+.secondDivider{
+	width:100%;
+	height:350px;
+	background:url(../img/bg/divider2.jpg) no-repeat center;
+	background-size: cover
+}
+.secondDivider h1 , .secondDivider p{
+	color:white;
+	position: relative;
+	top:145px;
+}
+.secondDivider p{font-size:20px;}
+.secondDivider hr{width:570px;}
+.team {padding-top:30px;text-align:center;}
+.team img {
+	border-radius: 50%;
+	height: 120px;
+	width: 120px
+}
+.team a{
+	color:#3498DB;
+	transition: all 0.3s ease;
+	transition-delay: 0.3s;
+	margin-bottom: 35px
+	text-decoration: none;
+
+}
+
+.team a:hover{
+	text-decoration: none;
+	color:#A4003A;
+}
+.workingContact {background-color:#F5F5F5;}
+.workingContact img {padding:50px 0;}
+.workingContact div div{
+	margin:75px auto;
+}
+.thirdDivider{
+	width: 100%;
+	height: 320px;
+	background:url('../img/bg/divider3.jpg') no-repeat center;
+	background-size: cover;
+	padding:120px;
+	color:white;
+}
+.thirdDivider p {font-size:25px;}
+.thirdDivider h1 hr {width:570px}
+.portfolio div div div{
+	width:350px;
+	height: 230px;
+	margin-left: 20px
+}
+.portfolio div div h1{margin-top:65px;}
+.portfolio div div h1 hr{width: 580px}
+.portfolio div div div img{width:100%}
+.fourthDivider{
+	width: 100%;
+	height: 350px;
+	background:url(../img/bg/divider4.jpg) no-repeat center;
+	background-size: cover;
+}
+.fourthDivider{
+	color:white;
+	text-align: center;
+	margin-top:100px;
+	padding-top: 120px
+}
+.fourthDivider hr{width: 580px}
+.fourthDivider p{font-size:25px;}
+.blog{
+	width:auto;
+	height: auto;
+	margin-bottom:80px;
+	padding-top: 35px
+}
+.firstBlogger div:first-child,.secondBlogger div:first-child{
+	width: 200px;
+	height: 450px;
+	background-color:#2B2B2B;
+}
+.firstBlogger div:first-child img ,.secondBlogger div:first-child img{
+	width:65px;
+	height: 65px;
+	border-radius: 50%;
+	display: block;
+	margin:20px auto;
+}
+.firstBlogger div:first-child h3,.firstBlogger div:first-child h6 ,
+.secondBlogger div:first-child h3,.secondBlogger div:first-child h6{
+	color:#F2F2F2;
+	text-align: center
+}
+.firstBlogger div:nth-child(2),.secondBlogger div:nth-child(2){
+	width:360px;
+	height: 450px;
+	background-color:#F2F2F2;
+}
+.firstBlogger div:nth-child(2) h2 ,.firstBlogger div:nth-child(2) p,
+.secondBlogger div:nth-child(2) h2,.secondBlogger div:nth-child(2) p{
+	padding-left:15px;
+}
+.firstBlogger div:nth-child(2) i,.secondBlogger div:nth-child(2) i{
+	transition: all 0.2s linear;
+	transition-delay: 0.28s
+}
+.firstBlogger div:nth-child(2) a ,.secondBlogger div:nth-child(2) a{
+	text-decoration: none;
+	color:#3498DC;
+}
+.firstBlogger div:nth-child(2) a:hover,.secondBlogger div:nth-child(2) a:hover{
+	color:#A4003A;
+}
+.lastDivider{
+	width: 100%;
+	height:420px;
+	background:url(../img/bg/divider6.jpg) no-repeat center;
+	background-size: cover;
+	padding-top:145px;
+	color:white;
+}
+.lastDivider hr{width:570px;}
+.lastDivider span{font-size:2em;}
+.lastDivider i{
+	color:#3498DB;
+	padding-top:20px;
+	padding-right: 15px
+}
+.contact{margin-top:45px;}
+.contact input{
+	width: 290px;
+	height: 40px;
+	border:1px solid lightgray;
+	border-radius:5px;
+}
+.endLine{
+	width: 100%;
+	height: 100px;
+	background-color: #2B2B2B;
+	color:white;
+	padding-top:40px;
+	margin-top:40px;
+}
+.endLine a{
+	text-decoration: none;
+}
+.endLine a:hover{
+	color:#A4003A;
+	text-decoration: none;
+}
